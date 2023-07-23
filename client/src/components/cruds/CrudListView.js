@@ -20,10 +20,10 @@ function CrudListView() {
 	return (
 		<div className="container">
 			<h2>
-				CRUD - List View
+				Manage Followers
 				<p>
 					<Link to="/cruds/new" className="btn btn-primary">
-						Create CRUD
+						Create Follower
 					</Link>
 				</p>
 			</h2>
@@ -39,7 +39,7 @@ function CrudListView() {
 						<div className="row g-0">
 							<div className="col-md-4 pl-5 ">
 								{/* <img src="..." className="img-fluid rounded-start" alt="..."> */}
-								<h5>Logo</h5>
+								<h5>Description</h5>
 							</div>
 							<div className="col-md-8">
 								<div class="card-header">

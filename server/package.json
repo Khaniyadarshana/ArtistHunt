@@ -1,8 +1,8 @@
 {
 	"name": "server",
-	"author": "Henok R. Bedassa",
-	"web": "henok.us",
-	"email": "jackbalageru@yahoo.com",
+	"author": "",
+	"web": "",
+	"email": "",
 	"description": "",
 	"main": "index.js",
 	"dependencies": {

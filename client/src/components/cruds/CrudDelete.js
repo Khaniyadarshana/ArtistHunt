@@ -35,20 +35,12 @@ function CrudDelete(props) {
 
 	return (
 		<div className="container">
-			<h2>{crud.companyName}</h2>
+			<h2>{crud.artistName}</h2>
 
-			<p>
-				<b>Phone</b>: <a href={`tel:+${crud.phone}`}> {crud.phone} </a>
-			</p>
+			<h2>{crud.lasttName}</h2>
 
 			<p>
 				<b>Email</b>: {crud.email}
-			</p>
-			<p>
-				<b>Location</b>: {crud.location}
-			</p>
-			<p>
-				<b>Link</b>:<a href={`${crud.link}`}> {crud.link} </a>
 			</p>
 			<p>
 				<b>Description</b>: {crud.description}

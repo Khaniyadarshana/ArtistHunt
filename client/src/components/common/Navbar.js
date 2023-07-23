@@ -5,8 +5,8 @@ const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container">
-				<NavLink className="navbar-brand" hrefLang="https://henok.us" to="/">
-					Henok
+				<NavLink className="navbar-brand" to="/">
+					ArtistHunt
 				</NavLink>
 				<button
 					className="navbar-toggler collapsed"
@@ -29,7 +29,7 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds/new"
 							>
-								Create
+								ArtistSignUp
 							</NavLink>
 						</li>
 						<li className="nav-item">
@@ -38,7 +38,7 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds"
 							>
-								CRUDs
+								ManageArtist
 							</NavLink>
 						</li>
 						<li className="nav-item">
@@ -47,7 +47,7 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds/grid-view"
 							>
-								Grid View
+								Artist
 							</NavLink>
 						</li>
 						<li className="nav-item">
@@ -56,7 +56,7 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds/list-view"
 							>
-								List View
+								Followers
 							</NavLink>
 						</li>
 					</ul>

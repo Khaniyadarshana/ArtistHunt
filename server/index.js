@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 // routes
 app.use("/api/cruds", crudRoutes);
-//app.use("/api/auth", authRoute);
+app.use("/api/auth", authRoute);
 
 // listening on port
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));

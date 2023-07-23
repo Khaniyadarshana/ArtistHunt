@@ -35,26 +35,14 @@ function CrudDetails(props) {
 
 	return (
 		<div className="container">
-			<h2>{crud.companyName}</h2>
-
-			<p>
-				<b>Phone</b>: <a href={`tel:+${crud.phone}`}> {crud.phone} </a>
-			</p>
+			<h2>{crud.artistName}</h2>
+			<h2>{crud.lastName}</h2>
 
 			<p>
 				<b>Email</b>: {crud.email}
 			</p>
 			<p>
-				<b>Location</b>: {crud.location}
-			</p>
-			<p>
-				<b>Link</b> :
-				<a href={` ${crud.link}`} target="_blank" rel="noreferrer">
-					{crud.link}
-				</a>
-			</p>
-			<p>
-				<b>Description</b>: <p align="justify">{crud.description}</p>
+				<b>Password</b>: {crud.password}
 			</p>
 			<p>
 				<small>

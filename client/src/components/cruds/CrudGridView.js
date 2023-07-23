@@ -20,10 +20,10 @@ function CrudGridView() {
 	return (
 		<div className="container">
 			<h2>
-				CRUD - Grid View
+				Manage Artists
 				<p>
 					<Link to="/cruds/new" className="btn btn-primary float-right">
-						Create CRUD
+						Create Artist
 					</Link>
 				</p>
 			</h2>

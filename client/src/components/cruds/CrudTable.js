@@ -35,10 +35,10 @@ function CrudTable() {
 			<table className="table riped  table-hover table-bordered container">
 				<thead>
 					<tr>
-						<th>Name</th>
-						<th>Phone</th>
+						<th>artistName</th>
+						<th>lastName</th>
 						<th>Email</th>
-						<th>Location</th>
+						<th>Password</th>
 						<th>View</th>
 						<th>Edit</th>
 						<th>Delete</th>
@@ -51,12 +51,12 @@ function CrudTable() {
 								<tr key={crud._id}>
 									<td>
 										<Link to={`/cruds/${crud._id}`} className="link-line">
-											{crud.companyName}
+											{crud.artistName}
 										</Link>
 									</td>
-									<td>{crud.phone}</td>
+									<td>{crud.lastname}</td>
 									<td>{crud.email}</td>
-									<td>{crud.location}</td>
+									<td>{crud.password}</td>
 									<td>
 										<Link to={`/cruds/${crud._id}`} className="btn btn-warning">
 											View

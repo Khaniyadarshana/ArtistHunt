@@ -7,7 +7,7 @@ MERN Stack CRUD built with React v17+, RRDv6+, Node.js, Express.js MongoDB and M
 1. Clone repository
 
 ```shell
-git clone https://github.com/jackbalageru/MERN-CRUD.git
+git clone https://github.com/Khaniyadarshana/ArtistHunt
 ```
 
 ## Install Client (React Files)
